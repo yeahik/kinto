@@ -8,7 +8,6 @@ cat << EOF > /etc/config.json
       "port": $PORT,
       "protocol": "$PROTOCOL",
       "settings": {
-        "decryption": "none",
         "clients": [
           {
             "id": "$UUID"
